@@ -233,3 +233,95 @@ main{
     display: flex;
     gap: 20px;
 }
+
+/* Tablet y teléfono */
+@media (max-width: 768px) {
+
+    /* Encabezado */
+    .site-init {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+    }
+
+    .site-init a {
+        margin-right: 12px;
+    }
+
+    .geo {
+        margin: 0 10px 0 0;
+    }
+
+    /* Columnas: de lado a lado a una debajo de otra */
+    main,
+    .container {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 95%;
+        gap: 20px;
+    }
+
+    .news-container,
+    .latest-stories-container {
+        width: 100%;
+    }
+
+    /* Título "Latest Stories" */
+    h2 {
+        width: auto;
+        font-size: 28px;
+    }
+
+    /* Noticia principal: el texto deja de flotar sobre la imagen */
+    .main-news img {
+        position: static;
+    }
+
+    .main-news-text {
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .main-news-text p {
+        font-size: 22px;
+    }
+
+    /* Tarjetas secundarias: una debajo de otra */
+    .secundary-news-container {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .secondary-news {
+        width: 100%;
+        height: auto;
+    }
+
+    .secondary-news-text {
+        padding: 20px;
+    }
+}
+
+/* Teléfonos pequeños */
+@media (max-width: 480px) {
+    .main-news-text p {
+        font-size: 18px;
+    }
+
+    .todays-pick-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .Subscribe {
+        padding: 10px;
+    }
+}
