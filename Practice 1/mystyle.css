@@ -1,0 +1,52 @@
+*{
+    margin: 100;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,p{
+    text-align: center;
+}
+
+.p{
+    line-height: 2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: sans-serif;
+}
+
+a{
+    color: rgb(75, 60, 53);
+    text-align: center;
+}
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.text2{
+    color: rgb(182, 11, 11);
+    text-align: center;
+    font-family: cursive;
+}
+/*headers*/
+
+body{
+    background-color: green;
+}
+header{
+    background-color: rgb(32, 150, 101);
+    color: white;
+
+}
+.title{
+    background-color: rgb(8, 8, 171);
+
+}
+
+h1{
+    color: #fcc00f;
+    font-size: 48px;
+    text-transform: uppercase;
+}
